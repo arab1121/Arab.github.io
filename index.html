@@ -2,7 +2,7 @@
 <html>
     
 <head>
-    <title>Profile.</title>
+    <title>MOHAMMAD|161355</title>
     <style type="text/css">
         body{background-image:url('1p.png'); background-repeat: repeat;}
         p{width:90% ;}
@@ -88,7 +88,47 @@
                 linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
             background-size: 55px 55px;
           }
-        
+          .shadow__btn {
+            padding: 10px 20px;
+            border: none;
+            font-size: 17px;
+            color: #fff;
+            border-radius: 7px;
+            letter-spacing: 4px;
+            font-weight: 700;
+            text-transform: uppercase;
+            transition: 0.5s;
+            transition-property: box-shadow;
+          }
+          
+          .shadow__btn {
+            background: rgb(0,140,255);
+            box-shadow: 0 0 25px rgb(0,140,255);
+          }
+          
+          .shadow__btn:hover {
+            box-shadow: 0 0 5px rgb(0,140,255),
+                        0 0 25px rgb(0,140,255),
+                        0 0 50px rgb(0,140,255),
+                        0 0 100px rgb(0,140,255);
+          }
+          button {
+            border: none;
+            outline: none;
+            background-color: #6c5ce7;
+            padding: 10px 20px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #fff;
+            border-radius: 5px;
+            transition: all ease 0.1s;
+            box-shadow: 0px 5px 0px 0px #a29bfe;
+          }
+          
+          button:active {
+            transform: translateY(5px);
+            box-shadow: 0px 0px 0px 0px #a29bfe;
+          }
     </style>
 </head>
 <body class="container">
@@ -113,11 +153,12 @@
           </div>
     <span style="position: relative;top: -200px;font-size: larger;font-weight: 800;">Programing Skills:-
         <ul style="position: relative;right: -222px;">
-        <li>C++ programing.</li>
-        <li>Python. </li>
-        <li>HTML5 markup language.</li>
-        <li>CSS .</li>
-        <li>Assembly</li>
+          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/C%2B%2B">C++ programing.</a></button></li>
+          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a></button></li>
+          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/HTML">HTML5 markup language.</a></button></li>
+          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></button></li>
+          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/Assembly_language">Assembly</a></button></li>
+
     </ul>
     </span>
      <div style="text-indent: 3em; font-family: Arial, Helvetica, sans-serif;width: 100ex ;"> Hello , I am the student <span style="color: rgb(0, 106, 255);">MOHAMMAD IBRAHIM ALODEH</span> .
@@ -126,6 +167,10 @@
     </div>   
     </div>
     <p> To Send E-Mail <a href="mailto:mialodeh22@cit.just.edu.jo">Click Here</a></p>
+    <button>
+      <a href="contact.html">Contact Me</a>
+  </button>
+  <!--
     <form action="" method="post">
     <lable style="font-weight: bold;">Any comments about the page<br>
     <textarea cols="30" rows="10" placeholder="comment Here..."></textarea></lable>
@@ -134,5 +179,6 @@
     <label><input type="submit" value="send"></label>
     <label><input type="reset" value="clear"></label>
     </form>
+    -->
 </body>
 </html>

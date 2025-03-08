@@ -1,0 +1,138 @@
+
+<html>
+    
+<head>
+    <title>Profile.</title>
+    <style type="text/css">
+        body{background-image:url('1p.png'); background-repeat: repeat;}
+        p{width:90% ;}
+        a{text-decoration: none;font-weight: bolder;}
+        a:hover{text-decoration: underline;background-color: brown;}
+        <!--
+
+        -->
+        .card {
+            position: relative;
+            width: 200px;
+            height: 250px;
+            border-radius: 14px;
+            z-index: 1111;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+            ;
+          }
+          
+          .bg {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            width: 190px;
+            height: 240px;
+            z-index: 2;
+            background: rgba(255, 255, 255, .95);
+            backdrop-filter: blur(24px);
+            border-radius: 10px;
+            overflow: hidden;
+            outline: 2px solid white;
+          }
+          
+          .blob {
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #ff0000;
+            opacity: 1;
+            filter: blur(12px);
+            animation: blob-bounce 5s infinite ease;
+          }
+          
+          @keyframes blob-bounce {
+            0% {
+              transform: translate(-100%, -100%) translate3d(0, 0, 0);
+            }
+          
+            25% {
+              transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+            }
+          
+            50% {
+              transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+            }
+          
+            75% {
+              transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+            }
+          
+            100% {
+              transform: translate(-100%, -100%) translate3d(0, 0, 0);
+            }
+          }
+          <!--
+
+
+          -->
+          .container {
+            width: 100%;
+            height: 100%;
+            --color: #E1E1E1;
+            background-color: #F3F3F3;
+            background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+                linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+            background-size: 55px 55px;
+          }
+        
+    </style>
+</head>
+<body class="container">
+    <header>
+    
+    <img src="JUST.png" alt="ERROR" style="height: 18%;width: 10%; " >
+    
+    </header>
+    <p style="font-weight: bold;position: relative;top: -75px;left: 30%;">
+          Jordan University of Science and Technology<br>
+          CY452-WEB SECURITY &mdash;
+    </p>
+    <p><span style=" position: absolute;">Name:MOHAMMAD IBRAHIM ALODEH</span><span style="position: relative;left:90%;"> ID Student:161355</span></p>
+    <hr>
+    <h1 style="text-align: center;border: black solid 2pt;">Mohammad's Profile</h1>
+    <div>
+        <div class="card">
+            
+            <div class="bg"><img src="profile.jpg" alt="ERROR" height="220px" width="200px" style="border: black solid 2pt;"></div>
+            <div class="blob"></div>
+            
+          </div>
+    <span style="position: relative;top: -200px;font-size: larger;font-weight: 800;">Programing Skills:-
+        <ul style="position: relative;right: -222px;">
+        <li>C++ programing.</li>
+        <li>Python. </li>
+        <li>HTML5 markup language.</li>
+        <li>CSS .</li>
+        <li>Assembly</li>
+    </ul>
+    </span>
+     <div style="text-indent: 3em; font-family: Arial, Helvetica, sans-serif;width: 100ex ;"> Hello , I am the student <span style="color: rgb(0, 106, 255);">MOHAMMAD IBRAHIM ALODEH</span> .
+         I study at the Jordan University of Science and Technology , My major is cyber security.
+         I am a third-year student,I finished five semesters and this is the six.
+    </div>   
+    </div>
+    <p> To Send E-Mail <a href="mailto:mialodeh22@cit.just.edu.jo">Click Here</a></p>
+    <form action="" method="post">
+    <lable style="font-weight: bold;">Any comments about the page<br>
+    <textarea cols="30" rows="10" placeholder="comment Here..."></textarea></lable>
+    
+    <br>
+    <label><input type="submit" value="send"></label>
+    <label><input type="reset" value="clear"></label>
+    </form>
+</body>
+</html>

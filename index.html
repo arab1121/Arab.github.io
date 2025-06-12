@@ -1,184 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arab's Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Arab's Profile</h1>
 
-<html>
-    
-<head>
-    <title>MOHAMMAD|161355</title>
-    <style type="text/css">
-        body{background-image:url('1p.png'); background-repeat: repeat;}
-        p{width:90% ;}
-        a{text-decoration: none;font-weight: bolder;}
-        a:hover{text-decoration: underline;background-color: brown;}
-        <!--
-
-        -->
-        .card {
-            position: relative;
-            width: 200px;
-            height: 250px;
-            border-radius: 14px;
-            z-index: 1111;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-            ;
-          }
-          
-          .bg {
-            position: absolute;
-            top: 5px;
-            left: 5px;
-            width: 190px;
-            height: 240px;
-            z-index: 2;
-            background: rgba(255, 255, 255, .95);
-            backdrop-filter: blur(24px);
-            border-radius: 10px;
-            overflow: hidden;
-            outline: 2px solid white;
-          }
-          
-          .blob {
-            position: absolute;
-            z-index: 1;
-            top: 50%;
-            left: 50%;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background-color: #ff0000;
-            opacity: 1;
-            filter: blur(12px);
-            animation: blob-bounce 5s infinite ease;
-          }
-          
-          @keyframes blob-bounce {
-            0% {
-              transform: translate(-100%, -100%) translate3d(0, 0, 0);
-            }
-          
-            25% {
-              transform: translate(-100%, -100%) translate3d(100%, 0, 0);
-            }
-          
-            50% {
-              transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
-            }
-          
-            75% {
-              transform: translate(-100%, -100%) translate3d(0, 100%, 0);
-            }
-          
-            100% {
-              transform: translate(-100%, -100%) translate3d(0, 0, 0);
-            }
-          }
-          <!--
-
-
-          -->
-          .container {
-            width: 100%;
-            height: 100%;
-            --color: #E1E1E1;
-            background-color: #F3F3F3;
-            background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
-                linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
-            background-size: 55px 55px;
-          }
-          .shadow__btn {
-            padding: 10px 20px;
-            border: none;
-            font-size: 17px;
-            color: #fff;
-            border-radius: 7px;
-            letter-spacing: 4px;
-            font-weight: 700;
-            text-transform: uppercase;
-            transition: 0.5s;
-            transition-property: box-shadow;
-          }
-          
-          .shadow__btn {
-            background: rgb(0,140,255);
-            box-shadow: 0 0 25px rgb(0,140,255);
-          }
-          
-          .shadow__btn:hover {
-            box-shadow: 0 0 5px rgb(0,140,255),
-                        0 0 25px rgb(0,140,255),
-                        0 0 50px rgb(0,140,255),
-                        0 0 100px rgb(0,140,255);
-          }
-          button {
-            border: none;
-            outline: none;
-            background-color: #6c5ce7;
-            padding: 10px 20px;
-            font-size: 12px;
-            font-weight: 700;
-            color: #fff;
-            border-radius: 5px;
-            transition: all ease 0.1s;
-            box-shadow: 0px 5px 0px 0px #a29bfe;
-          }
-          
-          button:active {
-            transform: translateY(5px);
-            box-shadow: 0px 0px 0px 0px #a29bfe;
-          }
-    </style>
-</head>
-<body class="container">
-    <header>
-    
-    <img src="JUST.png" alt="ERROR" style="height: 18%;width: 10%; " >
-    
-    </header>
-    <p style="font-weight: bold;position: relative;top: -75px;left: 30%;">
-          Jordan University of Science and Technology<br>
-          CY452-WEB SECURITY &mdash;
-    </p>
-    <p><span style=" position: absolute;">Name:MOHAMMAD IBRAHIM ALODEH</span><span style="position: relative;left:90%;"> ID Student:161355</span></p>
-    <hr>
-    <h1 style="text-align: center;border: black solid 2pt;">Mohammad's Profile</h1>
-    <div>
-        <div class="card">
-            
-            <div class="bg"><img src="profile.jpg" alt="ERROR" height="220px" width="200px" style="border: black solid 2pt;"></div>
-            <div class="blob"></div>
-            
+      <article>
+        <header class="profile-header">
+          <div class="university-info">
+            <img src="JUST.png" alt="JUST Logo" />
+            <p>
+              Jordan University of Science and Technology — Computer Engineering
+              (CPE)
+            </p>
           </div>
-    <span style="position: relative;top: -200px;font-size: larger;font-weight: 800;">Programing Skills:-
-        <ul style="position: relative;right: -222px;">
-          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/C%2B%2B">C++ programing.</a></button></li>
-          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a></button></li>
-          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/HTML">HTML5 markup language.</a></button></li>
-          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></button></li>
-          <li><button class="shadow__btn"><a href="https://en.wikipedia.org/wiki/Assembly_language">Assembly</a></button></li>
 
-    </ul>
-    </span>
-     <div style="text-indent: 3em; font-family: Arial, Helvetica, sans-serif;width: 100ex ;"> Hello , I am the student <span style="color: rgb(0, 106, 255);">MOHAMMAD IBRAHIM ALODEH</span> .
-         I study at the Jordan University of Science and Technology , My major is cyber security.
-         I am a third-year student,I finished five semesters and this is the six.
-    </div>   
-    </div>
-    <p> To Send E-Mail <a href="mailto:mialodeh22@cit.just.edu.jo">Click Here</a></p>
-    <button>
-      <a href="contact.html">Contact Me</a>
-  </button>
-  <!--
-    <form action="" method="post">
-    <lable style="font-weight: bold;">Any comments about the page<br>
-    <textarea cols="30" rows="10" placeholder="comment Here..."></textarea></lable>
-    
-    <br>
-    <label><input type="submit" value="send"></label>
-    <label><input type="reset" value="clear"></label>
-    </form>
-    -->
-</body>
+          <div class="personal-info">
+            <p><strong>Name:</strong> Arab Samer Muhammad Jumaa Mustafa</p>
+            <p><strong>ID Student:</strong> <span class="id">163919</span></p>
+          </div>
+        </header>
+
+        <nav class="navbar">
+          <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#experience">My Experience</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+        <hr />
+
+        <section class="profile-section">
+          <h2 id="about-me">About Me</h2>
+          <div class="image-skills">
+            <img src="profile.jpg" alt="Arab's Personal Photo" />
+            <div class="skills">
+              <h3>Programming Skills:</h3>
+              <ul>
+                <li>C++ Programming</li>
+                <li>C# Programming</li>
+                <li>Java Programming</li>
+                <li>DataBase Useing SQL with APEX framework</li>
+                <li>Python</li>
+                <li>Web Design HTML & CSS & Javascript</li>
+                <li>Verilog hardware Programming language</li>
+                <li>MIPS Assembly Programming</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <p>
+              Hello, I am Arab Samer Muhammad Jumaa Mustafa, a computer
+              engineering student at Jordan University of Science and
+              Technology. I am currently in my third year of study, having
+              completed two academic years successfully.
+            </p>
+          </div>
+          <hr />
+          <div class="about-text">
+            <h2 id="experience">My Experience</h2>
+            <h3>How I Can Benefit Companies with My Skills:</h3>
+            <p>
+              With a solid foundation in multiple programming languages and
+              technologies including C++, C#, Java, SQL with APEX, Python, HTML,
+              CSS, JavaScript, Verilog, and MIPS Assembly I bring versatility
+              and problem-solving ability to any development team. My skills
+              allow me to contribute to both front-end and back-end development,
+              database management, embedded systems, and hardware-level
+              programming. I am capable of designing efficient software
+              solutions, optimizing system performance, and adapting quickly to
+              new frameworks and environments. This combination of technical
+              knowledge and adaptability makes me a valuable asset for companies
+              seeking reliable and innovative software engineering talent.
+            </p>
+          </div>
+          <hr />
+          <div class="about-text">
+            <h2 id="certificates">Certificates</h2>
+            <h3>About Jordan University of Science and Technology (JUST):</h3>
+            <p>
+              Jordan University of Science and Technology (JUST) is one of the
+              leading academic and research institutions in the Middle East.
+              Established in 1986, the university has earned a strong reputation
+              for excellence in science, technology, engineering, and medicine.
+              JUST's Faculty of Computer and Information Technology and the
+              Faculty of Engineering are recognized for their rigorous academic
+              programs, modern laboratories, and strong partnerships with
+              international institutions and industry leaders. The university
+              consistently promotes innovation, critical thinking, and hands-on
+              learning, making it a top choice for students pursuing careers in
+              technology and engineering. Its commitment to academic excellence
+              and research-driven education prepares graduates to meet global
+              challenges with confidence and creativity.
+            </p>
+          </div>
+          <hr />
+        </section>
+
+        <section class="contact-section">
+          <h2 id="contact">Contact Me</h2>
+          <p>
+            To send an email:
+            <a href="mailto:arab.samer.1121@gmail.com" class="email-link"
+              >Click here</a
+            >
+          </p>
+
+          <form class="feedback-form" action="#" method="post">
+            <label for="comments">Any comments about the page:</label>
+            <textarea
+              id="comments"
+              name="comments"
+              rows="5"
+              placeholder="Write your feedback here..."
+            ></textarea>
+
+            <div class="form-buttons">
+              <button type="submit">Send</button>
+              <button type="reset">Clear</button>
+            </div>
+          </form>
+        </section>
+
+        <footer class="site-footer">
+          <div class="footer-top">
+            <a href="#" class="footer-brand">Arab's Profile</a>
+
+            <div class="footer-sections">
+              <!-- Useful Links -->
+              <div class="footer-section">
+                <h3>Useful Links</h3>
+                <ul>
+                  <li><a href="#about-me">About Me</a></li>
+                  <li><a href="#experience">My Experience</a></li>
+                  <li><a href="#certificates">Certificates</a></li>
+                  <li><a href="#contact">Contact Me</a></li>
+                </ul>
+              </div>
+              <!-- Social Media -->
+              <div class="footer-section">
+                <h3>Social Media</h3>
+                <ul class="social-links">
+                  <li>
+                    <a href="https://www.facebook.com/" target="_blank"
+                      ><img src="facebook.svg" alt="Facebook logo" />
+                      Facebook</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.twitter.com/" target="_blank"
+                      ><img src="twitter.jpg" alt="Twitter logo" /> Twitter</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/" target="_blank"
+                      ><img src="linkedin.png" alt="LinkedIn logo" />
+                      LinkedIn</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Contact Info -->
+          <div class="footer-bottom">
+            <a href="tel:+962782768784">📞 +962 7 8276 8784</a>
+            <span>|</span>
+            <a href="mailto:arab.samer.1121@gmail.com"
+              >📧 arab.samer.1121@gmail.com.com</a
+            >
+          </div>
+          &copy; 2025 Arab. All rights reserved.
+        </footer>
+      </article>
+    </main>
+  </body>
 </html>

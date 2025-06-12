@@ -1,0 +1,322 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #003366;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+/* Header Section */
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.university-info {
+  display: flex;
+  align-items: center;
+}
+
+.university-info img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.university-info p {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.personal-info p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.id {
+  float: right;
+}
+/* Navigation Bar */
+.navbar {
+  background-color: rgba(96, 133, 146, 0.37); /* لون أزرق سماوي مع شفافية */
+  padding: 0;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  width: fit-content;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* ظل خفيف */
+  backdrop-filter: blur(4px); /* تأثير زجاجي */
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 12px 20px;
+  color: #003366; /* لون أزرق غامق للنص */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:last-child {
+  border-right: none;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #000;
+}
+
+/* Profile Section */
+.profile-section {
+  margin-top: 20px;
+}
+
+.image-skills {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.image-skills img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.skills {
+  flex: 1;
+}
+
+.skills h3 {
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.skills li {
+  margin-bottom: 5px;
+}
+
+/* About Paragraph */
+.about-text {
+  margin-top: 20px;
+}
+
+.about-text p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1em;
+}
+
+/* Contact Section */
+.contact-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #eef4f8;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact-section h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.email-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.feedback-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #999;
+  margin-bottom: 15px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form-buttons button {
+  padding: 8px 16px;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #003366;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.form-buttons button:hover {
+  background-color: #00509e;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 1px solid #ccc;
+}
+.site-footer {
+  background-color: #003366;
+  color: #fff;
+  padding: 30px 20px;
+  margin-top: 50px;
+  font-size: 0.95em;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-sections {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.footer-section h3 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+/* Social media logos */
+.social-links img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Bottom contact info */
+.footer-bottom {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 0.95em;
+}
+
+.footer-bottom a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .image-skills {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .personal-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

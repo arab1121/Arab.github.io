@@ -161,6 +161,55 @@ hr {
   line-height: 1.6;
   font-size: 1em;
 }
+/*Teachers Say About Me*/
+.teachers-section {
+  margin-top: 40px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.teacher-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.teacher-card {
+  background-color: #f8fafd;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.teacher-card:hover {
+  transform: scale(1.03);
+}
+
+.teacher-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #003366;
+}
+
+.teacher-card h3 {
+  margin: 10px 0 8px;
+  font-size: 1.1em;
+  color: #003366;
+}
+
+.teacher-card p {
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #333;
+}
 
 /* Contact Section */
 .contact-section {

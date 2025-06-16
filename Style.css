@@ -31,6 +31,25 @@ h3 {
 hr {
   margin: 20px 0;
 }
+#google_translate_element {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* تنسيق الخط */
+#google_translate_element select {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
 
 /* Header Section */
 .profile-header {
@@ -72,14 +91,14 @@ hr {
 }
 /* Navigation Bar */
 .navbar {
-  background-color: rgba(96, 133, 146, 0.37); /* لون أزرق سماوي مع شفافية */
+  background-color: rgba(96, 133, 146, 0.37);
   padding: 0;
   margin: 20px auto;
   border-radius: 8px;
   overflow: hidden;
   width: fit-content;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* ظل خفيف */
-  backdrop-filter: blur(4px); /* تأثير زجاجي */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
 }
 
 .navbar ul {
@@ -96,7 +115,7 @@ hr {
 .navbar a {
   display: block;
   padding: 12px 20px;
-  color: #003366; /* لون أزرق غامق للنص */
+  color: #003366;
   text-decoration: none;
   font-weight: bold;
   font-size: 1em;

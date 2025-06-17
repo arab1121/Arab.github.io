@@ -390,21 +390,26 @@ footer {
 .footer-bottom a:hover {
   color: #fff;
 }
+
 /*My Certificates*/
 .view-cert-button {
-    background-color: #003366;
+  background-color: #003366;
   color: white;
- padding: 10px 25px;
+  padding: 12px 20px;
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  font-size: 16px;
+}
+.certificates-gallery h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 30px;
 }
 
 .view-cert-button:hover {
-  background-color:#0056b3;
+  background-color: #0056b3;
   transform: scale(1.05);
 }
 .certificates-gallery {
@@ -443,6 +448,20 @@ footer {
 .back-button:hover {
   background-color: #00509e;
 }
+
+.certificates-gallery img {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   .image-skills {
